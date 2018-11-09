@@ -6,7 +6,7 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Maven Web Project 18th August</name>
   <description>Maven Web Project for Java Project</description>
 
@@ -19,7 +19,7 @@
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-	 	<sonar.host.url>http://13.232.226.28:9000/</sonar.host.url>
+	 	<sonar.host.url>http://13.126.214.107:9000/</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -80,12 +80,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.232.164.29:8081/repository/myntra-releases/</url>
+	      <url>http://35.154.3.107:8081/repository/myntra-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.232.164.29:8081/repository/myntra-snapshots/</url>
+	      <url>http://35.154.3.107:8081/repository/myntra-snapshots/</url>
 	    </snapshotRepository>
 </distributionManagement>
 	
